@@ -256,6 +256,7 @@ img {
 
 .main-footer .container {
   display: flex;
+  align-items: baseline;
 }
 
 .footer-left-side {
@@ -301,7 +302,6 @@ img {
 }
 
 .footer-center {
-  margin-top: 12px;
   width: 206px;
 }
 
@@ -327,14 +327,13 @@ img {
 .hero {
   max-width: 1600px;
   margin: 0 auto;
-  background-color: var(--hero-back-ground-color);
-  background-image: linear-gradient(rgba(var(--hero-overlay)), rgba(var(--hero-overlay))),
-    url(../images/index/hero/hero.jpg);
+  text-align: center;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-
-  text-align: center;
+  background-color: var(--hero-back-ground-color);
+  background-image: linear-gradient(rgba(var(--hero-overlay)), rgba(var(--hero-overlay))),
+    url(../images/index/hero/hero.jpg);
 }
 
 .hero-content {
